@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-site {
+  height: 50px;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.logo {
+  font-size: 24px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.menu > ul {
+  display: flex;
+}
+
+.menu li {
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: #3480c1; 
+}
