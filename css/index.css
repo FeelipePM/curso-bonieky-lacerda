@@ -39,3 +39,68 @@ body {
 .menu li:hover {
   background-color: #3480c1; 
 }
+
+.spotlight {
+  height: 300px;
+  background-color: #347aba;
+}
+
+.featured-content {
+  width: 1000px;
+  margin: auto;
+  background-color: #000;
+}
+
+.right-content {
+  float: right;
+}
+
+.right-content > .image {
+  margin-right: 55px;
+}
+
+.left-content {
+  float: left;
+}
+
+.title {
+  margin-top: 60px;
+  font-size: 48px;
+  color: #fff;
+}
+
+.title > .title-uppercase {
+  text-transform: uppercase;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  width: 282px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #000;
+  background-color: #ffc001;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.product-content {
+  width: 1000px;
+  margin: auto;
+}
+
+.others-products {
+  height: 90px;
+  font-size: 20px;
+  text-align: end;
+  line-height: 90px;
+}
