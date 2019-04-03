@@ -104,3 +104,23 @@ body {
   text-align: end;
   line-height: 90px;
 }
+
+.photo-product {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-product > img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  height: 80px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  font-size: 20px;
+  background: #347aba;
+}
