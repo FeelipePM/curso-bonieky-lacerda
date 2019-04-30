@@ -213,7 +213,6 @@ body {
   width: 275px;
   min-height: 200px;
   float: right;
-  background-color: #999;
   margin-left: 12px;
 }
 
@@ -223,3 +222,39 @@ body {
   min-height: 200px;
   width: 753px;
 }
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.widget-title {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  background-color: #ddd;
+}
+
+.widget-content {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.notice-item {
+  font-size: 15px;
+  margin:0 5px;
+  padding: 5px 0;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.notice-item a {
+  text-decoration: none;
+  color: #000;
+}
+
