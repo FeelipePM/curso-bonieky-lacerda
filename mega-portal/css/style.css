@@ -218,8 +218,6 @@ body {
 
 .container-left {
   float: left;
-  background-color: #999;
-  min-height: 200px;
   width: 753px;
 }
 
@@ -258,3 +256,55 @@ body {
   color: #000;
 }
 
+.slideshow {
+  height: 335px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.slideshow-area {
+  width: 100000px;
+  height: 335px;
+  background-color: #ddd;
+}
+
+.slide {
+  height: 335px;
+  float: left;
+}
+
+.slide.-img1 {
+  background-image: url('https://images.immedia.com.br//27/27717_2_EL.jpg?c=201904301135');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide.-img2 {
+  background-image: url('https://s2.glbimg.com/EVmEGJiHXkx04JiuxPQz2LhMnHI=/620x455/e.glbimg.com/og/ed/f/original/2019/02/06/o-que-e-mindful-eating_1.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-info {
+  height: 70px;
+  background-image: url('../img/slideshow_bg.png');
+  background-size: auto 70px;
+  margin-top: 265px;
+}
+
+.slide-title {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.slide-subtitle {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 20px;
+}
