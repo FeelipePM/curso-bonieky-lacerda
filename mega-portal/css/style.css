@@ -262,32 +262,39 @@ body {
   overflow: hidden;
 }
 
-.slideshow-area {
+.slideshowarea {
   width: 100000px;
   height: 335px;
   background-color: #ddd;
+  transition: all 1s; 
 }
 
 .slide {
   height: 335px;
   float: left;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .slide.-img1 {
   background-image: url('https://images.immedia.com.br//27/27717_2_EL.jpg?c=201904301135');
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .slide.-img2 {
   background-image: url('https://s2.glbimg.com/EVmEGJiHXkx04JiuxPQz2LhMnHI=/620x455/e.glbimg.com/og/ed/f/original/2019/02/06/o-que-e-mindful-eating_1.jpg');
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
+
+.slide.-img3 {
+  background-image: url('https://s2.glbimg.com/aqZ25WFUSiabnvuES4xLaTY8wwk=/0x0:1080x608/1600x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2019/01/04/carrossel-xavi.jpg');
+}
+
+.slide.-img4 {
+  background-image: url('https://s2.glbimg.com/5mbzzSkbfgalt3FhCgYdoshQVJ8=/0x0:2880x2160/1600x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2014/09/24/100_8362.jpg');
+}
+
+
 
 .slide-info {
   height: 70px;
@@ -307,4 +314,22 @@ body {
   font-size: 13px;
   color: #fff;
   padding-left: 20px;
+}
+
+.slide-bubble {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+}
+
+.bubble {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 50%;
+  opacity: .5;
+  margin-top: 5px;
 }

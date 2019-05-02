@@ -1,6 +1,6 @@
 var slideItem = 0;
 window.onload = function() {
-  setInterval(passarSlide, 2000);
+  setInterval(slidePass, 4000);
 
   var slidewidth = document.getElementById("slideshow").offsetWidth;
   var objs = document.getElementsByClassName("slide");
@@ -8,7 +8,7 @@ window.onload = function() {
     objs[i].style.width = slidewidth + "px";
   }
 };
-function passarSlide() {
+function slidePass() {
   var slidewidth = document.getElementById("slideshow").offsetWidth;
 
   if (slideItem >= 3) {
@@ -20,7 +20,7 @@ function passarSlide() {
   document.getElementsByClassName("slideshowarea")[0].style.marginLeft =
     "-" + slidewidth * slideItem + "px";
 }
-function mudarSlide(pos) {
+function slideChange(pos) {
   slideItem = pos;
   var slidewidth = document.getElementById("slideshow").offsetWidth;
   document.getElementsByClassName("slideshowarea")[0].style.marginLeft =
