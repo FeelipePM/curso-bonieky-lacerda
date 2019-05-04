@@ -260,6 +260,7 @@ body {
   height: 335px;
   background-color: #ccc;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .slideshowarea {
@@ -332,4 +333,52 @@ body {
   border-radius: 50%;
   opacity: .5;
   margin-top: 5px;
+}
+
+.notice-content1 {
+  width: 430px;
+  height: 420px;
+  float: left;
+}
+
+.notice-content2 {
+  width: 320px;
+  height: 420px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.notice-image {
+  width: 80px;
+  height: 80px;
+  border: 0;
+}
+
+.notice-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  float: left;
+}
+
+.notice-item1 {
+  text-align: left;
+}
+
+.notice-title1 {
+  float: left;
+  margin-left: 6px;
+  font-size: 16px;
+  width: 226px;
+}
+
+.notice-info1 {
+  float: left;
+  font-size: 12px;
+  margin-left: 6px;
+  color: #999;
 }
