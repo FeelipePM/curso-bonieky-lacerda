@@ -360,13 +360,16 @@ body {
 .notice-img {
   width: 80px;
   height: 80px;
-  border: 1px solid #ccc;
+  border: 1px solid #CCC;
   padding: 3px;
   float: left;
 }
 
 .notice-item1 {
   text-align: left;
+  height: 88px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .notice-title1 {
@@ -377,8 +380,29 @@ body {
 }
 
 .notice-info1 {
+  width: 226px;
   float: left;
   font-size: 12px;
   margin-left: 6px;
   color: #999;
+}
+
+.notice-item1.-spotlight {
+  margin-left: 10px;
+}
+
+.notice-item1.-spotlight .notice-img {
+  width: 384px;
+  height: 222px;
+}
+
+.notice-item1.-spotlight .notice-image {
+  width: 384px;
+  height: 222px;
+}
+
+.notice-item1.-spotlight .notice-title1 {
+  width: 384px;
+  margin-left: 6px;
+  font-size: 25px;
 }
