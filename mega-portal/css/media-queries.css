@@ -1,0 +1,160 @@
+@media (min-width: 906px) and (max-width:1057px) {
+  .inside-header,
+  .inside-header2,
+  .menu,
+  .int-highlights,
+  .container-int
+   {
+    max-width: 890px;
+  }
+
+  .container-left {
+    width: 600px;
+  }
+
+  .notice-content1 {
+    width: 278px;
+  }
+
+  .notice-content1 .notice-item1 .notice-img {
+    width: 245px;
+  }
+
+  .notice-content1 .notice-img .notice-image {
+    width: 245px;
+  }
+
+  .notice-content1 .notice-item1 .notice-title1 {
+    width: 245px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 783px) and (max-width: 906px) {
+  .inside-header,
+  .inside-header2,
+  .menu,
+  .int-highlights,
+  .container-int
+   {
+    max-width: 768px;
+  }
+
+  .inside-header2 .banner {
+    display: none;
+  }
+
+  .inside-header2 .logo-wrap {
+    float: none;
+    margin: auto;
+  }
+
+  .container-right {
+    display: none;
+  }
+
+  .container-left {
+    float: none;
+    width: auto;
+  }
+
+  .notice-content1 {
+    width: 446px;
+  }
+
+  .notice-content1 .notice-item1 .notice-img {
+    width: 415px;
+  }
+
+  .notice-content1 .notice-img .notice-image {
+    width: 415px;
+  }
+
+  .notice-content1 .notice-item1 .notice-title1 {
+    width: 415px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 783px) {
+  .inside-header,
+  .inside-header2,
+  .menu,
+  .int-highlights,
+  .container-int
+   {
+    max-width: 320px;
+  }
+
+  .top-left {
+    display: none;
+  }
+
+  .top-right {
+    width: 100%;
+  }
+
+  .inside-header2 .banner {
+    display: none;
+  }
+
+  .inside-header2 .logo-wrap {
+    float: none;
+    margin: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .highlights-area {
+    display: none;
+  }
+
+  .container-right {
+    display: none;
+  }
+
+  .container-left {
+    float: none;
+    width: auto;
+  }
+
+  .notice-content1 {
+    width: 320px;
+    height: auto;
+  }
+
+  .notice-content2 {
+    width: 300px;
+    float: none;
+    margin: auto;
+    clear: both;
+    padding-top: 20px;
+  }
+
+  .notice-content2 .notice-item1 .notice-title1 {
+    width: 206px;
+  }
+
+  .notice-content2 .notice-item1 .notice-info1 {
+    width: 206px;
+  }
+
+  .notice-content2 .notice-item1 {
+    clear: both;
+  }
+
+  .notice-content1 .notice-item1 .notice-img {
+    width: 290px;
+  }
+
+  .notice-content1 .notice-img .notice-image {
+    width: 290px;
+  }
+
+  .notice-content1 .notice-item1 .notice-title1 {
+    width: 290px;
+    font-size: 20px;
+  }
+}
