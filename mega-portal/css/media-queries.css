@@ -1,10 +1,9 @@
-@media (min-width: 906px) and (max-width:1057px) {
+@media (min-width: 906px) and (max-width: 1057px) {
   .inside-header,
   .inside-header2,
   .menu,
   .int-highlights,
-  .container-int
-   {
+  .container-int {
     max-width: 890px;
   }
 
@@ -28,6 +27,10 @@
     width: 245px;
     font-size: 25px;
   }
+
+  #menu {
+    display: block !important;
+  }
 }
 
 @media (min-width: 783px) and (max-width: 906px) {
@@ -35,13 +38,16 @@
   .inside-header2,
   .menu,
   .int-highlights,
-  .container-int
-   {
+  .container-int {
     max-width: 768px;
   }
 
   .inside-header2 .banner {
     display: none;
+  }
+
+  #menu {
+    display: block !important;
   }
 
   .inside-header2 .logo-wrap {
@@ -81,8 +87,7 @@
   .inside-header2,
   .menu,
   .int-highlights,
-  .container-int
-   {
+  .container-int {
     max-width: 320px;
   }
 
@@ -103,8 +108,34 @@
     margin: auto;
   }
 
-  .menu {
+  .menu > .responsive-menu {
+    display: block;
+  }
+
+  .menu > ul {
     display: none;
+    position: absolute;
+    background-color: #c0392b;
+    z-index: 10;
+    margin-top: 0;
+  }
+
+  .menu-wrap .menu {
+    max-width: 320px;
+  }
+
+  .menu-wrap .menu li {
+    float: none;
+    height: auto;
+  }
+
+  .menu .arrow-submenu {
+    display: none;
+  }
+
+  .submenu {
+    position: static;
+    display: block;
   }
 
   .highlights-area {
