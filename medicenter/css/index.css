@@ -371,3 +371,43 @@ p {
 .footer .footer-copy span {
   color: #fff;
 }
+
+.widget-content.-posts {
+  color: #fff;
+}
+
+.widget-content.-tweets {
+  width: 265px;
+  color: #fff;
+}
+
+.contact-medias .icon-media {
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.info-mail, .post-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.widget-content.-posts > .info-date {
+  display: contents;
+  color: #36a9e1;
+}
+
+.widget-content.-tweets > .info-date {
+  color: #36a9e1;
+}
+
+.widget-content.-tweets .text-tweets {
+  color: #5c5c5c;
+}
+
+.arrow {
+  color: #fff;
+}
+
+
+
