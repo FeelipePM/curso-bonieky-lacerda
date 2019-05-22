@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="./css/media-queries.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/index.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -18,7 +21,7 @@
 <body>
 
   <header class="header">
-    <section class="container">
+    <section class="container -menu">
       <figure class="logo">
         <a href=""><img src="./img/logo.png" alt="logomarca"></a>
       </figure>
@@ -38,7 +41,7 @@
     </section>
   </header>
 
-  <section id="banner">
+  <section id="banner" class="wrap-banner">
     <section class="container -column">
       <section class="content-top">
         <h1>Top notch experience</h1>
@@ -242,7 +245,7 @@
 
 
       <section class="footer-area">
-        <section class="item-area">
+        <section class="item-area -first">
           <section class="widget">
             <section class="title-text">Medicenter Clinic</section>
             <section class="text-bar"></section>
@@ -250,12 +253,13 @@
             <section class="widget-content">
               Mauris adipisicing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
             </section>
-            <section class="widget-content">
+            <section class="widget-content -second">
               Medicenter Clinic<br>
               33 Farlane Street<br>
               Keilor East<br>
               VIC 3033, Australia
               <section class="widget-contact">
+                <br>
                 +123 655655<br>
                 +123 655 755<br>
                 <a class="info-mail" href="mailto:medicenter@email.com">
@@ -270,7 +274,7 @@
                 <img class="icon-media" src="./img/email-icon.png" alt="Icone E-mail">
               </section>
             </section>
-            
+
           </section>
         </section>
 
@@ -278,9 +282,9 @@
           <section class="widget">
             <section class="title-text">Lastest Posts</section>
             <section class="text-bar"></section>
-          
+
             <section class="widget-content -posts">
-               -> New study links lutein with eye health benefits<br>
+              -> New study links lutein with eye health benefits<br>
               <span class="info-date">13 days ago</span>
             </section>
             <section class="widget-content -posts">
@@ -288,7 +292,7 @@
               <span class="info-date">14 days ago</span>
             </section>
             <section class="widget-content -posts">
-             -> Discoveries offer a new explanation of diabetes<br>
+              -> Discoveries offer a new explanation of diabetes<br>
               <span class="info-date">3 months ago</span>
             </section>
           </section>
@@ -298,25 +302,30 @@
           <section class="widget">
             <section class="title-text">Lastest Tweets</section>
             <section class="text-bar"></section>
-          
-              <section class="widget-content -tweets">
-                <span class="text-tweets">
-                  <span class="arrow">-></span> QuanticaLabs is pleased to announce that WordPress version of Medicenter is available the purchase: <a class="post-link" href="http://t.co/DoUKsDrmX6">http://t.co/DoUKsDrmX6</a><br></span>
-                <span class="info-date">2 days ago</span>
-              </section>
-              <section class="widget-content -tweets">
-                <span class="text-tweets">
-                  <span class="arrow">-></span> @GoldenSkyUk Please use our Support Forum:
-                  purchase: <a class="post-link" href="http://t.co/DoUKsDrmX6">http://t.co/jG0VHdWnG9</a> to get help. Thank you!<br></span>
-                <span class="info-date">22 days ago</span>
-              </section>
-              <section class="widget-content -tweets">
-                <span class="text-tweets">
-                  <span class="arrow">-></span> CSS3 Web Pricing Table Pack is updated with new functionality - active columns. Please redownload at <a class="post-link" href="http://t.co/DoUKsDrmX6">http://t.co/pllumSoA9l</a><br></span>
-                <span class="info-date">about a month ago</span>
-              </section>
+
+            <section class="widget-content -tweets">
+              <span class="text-tweets">
+                <span class="arrow">-></span> QuanticaLabs is pleased to announce that WordPress version of Medicenter
+                is available the purchase: <a class="post-link"
+                  href="http://t.co/DoUKsDrmX6">http://t.co/DoUKsDrmX6</a><br></span>
+              <span class="info-date">2 days ago</span>
+            </section>
+            <section class="widget-content -tweets">
+              <span class="text-tweets">
+                <span class="arrow">-></span> @GoldenSkyUk Please use our Support Forum:
+                purchase: <a class="post-link" href="http://t.co/DoUKsDrmX6">http://t.co/jG0VHdWnG9</a> to get help.
+                Thank you!<br></span>
+              <span class="info-date">22 days ago</span>
+            </section>
+            <section class="widget-content -tweets">
+              <span class="text-tweets">
+                <span class="arrow">-></span> CSS3 Web Pricing Table Pack is updated with new functionality - active
+                columns. Please redownload at ``<a class="post-link"
+                  href="http://t.co/DoUKsDrmX6">http://t.co/pllumSoA9l</a><br></span>
+              <span class="info-date">about a month ago</span>
             </section>
           </section>
+        </section>
       </section>
 
       <section class="footer-copy">
