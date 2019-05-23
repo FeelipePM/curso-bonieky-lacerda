@@ -32,3 +32,16 @@
   background-color: #39aae1;
   color: #fff;
 }
+
+.mobile-menu {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 40px 20px 40px 0;
+}
+
+.mobile-menu .menu-line{
+    height: 4px;
+    background-color: #39aae1;
+    border-radius: 10px;
+  }
