@@ -85,8 +85,12 @@
     display: block;
   }
 
-  .container.-menu .menu-nav ul{
+  .container.-menu .menu-nav ul {
     display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
   }
 
   .menu-nav .mobile-menu {
