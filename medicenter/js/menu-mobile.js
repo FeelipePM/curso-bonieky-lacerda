@@ -1,4 +1,4 @@
-function menuMobile() {
+const menuMobile = () => {
   const menuNavUl = document.querySelector(".menu-nav ul");
 
   document.querySelector(".mobile-menu").addEventListener("click", function() {
@@ -6,6 +6,6 @@ function menuMobile() {
       ? (menuNavUl.style.display = "none")
       : (menuNavUl.style.display = "flex");
   });
-}
+};
 
 menuMobile();
