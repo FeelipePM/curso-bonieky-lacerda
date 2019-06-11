@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-number, .input-submit {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
